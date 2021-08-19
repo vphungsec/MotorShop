@@ -4,7 +4,7 @@ ABOUT THE PROJECT:
 This project is the end-of-semester teamwork report of the Mobile Application Development subject.
 
 1. MotorShopApp:
-  Features: This Android application manages the following 6 main objects:
+\n  Features: This Android application manages the following 6 main objects:
     People (staff & customer), Manufacturer (Brand), Product (motors & accessories), Order (motors & accessories), warranty (motors & accessories), statistics.
     Basic functions: Develop functions for getting data from API (from CRUD functions of each object) and displaying data on phone and functions for statistics.
     Data is connected with MotorShopAPI.
