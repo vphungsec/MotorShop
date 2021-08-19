@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".warranty.fragment.ChooseSPFragment"
+    android:id="@+id/frm1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/lvMotor_of_you"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingVertical="10dp"
+        android:textColor="#000"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="170dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#FF001E"
+        android:src="@drawable/ic_add"
+        android:tint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="120dp"
+        android:textSize="15dp"
+        android:text="Add motor of you"/>
+</FrameLayout>

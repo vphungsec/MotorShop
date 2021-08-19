@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".warranty.fragment.RightsOfCustomersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:text="@string/rights_and_obligations_of_customers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Để sử dụng xe an toàn và thoải mái, việc kiểm tra và bảo dưỡng xe là hết sức cần thiết. Vì vậy, hãy chú ý những điểm sau đây. Trong trường hợp không chú ý các điểm này, chúng tôi từ chối sửa chữa bảo hành cho quý khách:
+\n- Sử dụng xe theo đúng phương pháp đã hướng dẫn trong sách hướng dẫn sử dụng.
+\n- Tiến hành “kiểm tra trước khi vận hành” theo đúng hướng dẫn.
+\n- Tiến hành kiểm tra định kỳ đúng lịch theo sách hướng dẫn sử dụng.
+\n- Thay thế các bộ phận định kỳ, các chất lỏng, dầu mỡ theo đúng sách hướng dẫn sử dụng đã quy định."
+            android:textSize="15dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+</FrameLayout>

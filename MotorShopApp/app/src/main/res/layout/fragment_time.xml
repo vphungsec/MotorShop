@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".warranty.fragment.TimeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:text="@string/guarantees_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 3 năm hoặc 30.000km tùy theo điều kiện nào đến trước, kể từ thời điểm sản phẩm được chính người dùng đầu tiên mua lần đầu/ ngày đăng ký chứng nhận bảo hành
+                        \n- Bình điện 12V: thời gian bảo hành bình điện 12V là 12 tháng hoặc 10.000 km tùy theo điện kiện nào đến trước. Tuy nhiên, nếu hư hỏng do cách sử dụng sai như: quá sạc, phóng điện quá mức sẽ không được bảo hành."
+            android:textSize="15dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+</FrameLayout>

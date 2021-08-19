@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvThemNV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="THÊM BỘ PHẬN"
+        android:textColor="#101010"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvNhapMaBPCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvThemNV"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Nhập mã bộ phận cần thêm: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etMaBPThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNhapMaBPCanThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvNhapTenBPCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập tên bộ phận cần thêm: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etTenBPThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNhapTenBPCanThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+
+
+    <Button
+
+        android:id="@+id/btnXacNhanThemBP"
+        android:layout_width="119dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:gravity="center"
+        android:text="Xác Nhận"></Button>
+</LinearLayout>

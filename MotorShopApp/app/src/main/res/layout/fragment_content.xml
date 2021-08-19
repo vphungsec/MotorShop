@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".warranty.fragment.ContentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:text="@string/guarantees_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- Cam kết sẽ sửa chữa lại miễn phí các khuyết tật của vật liệu hoặc/ và do sản xuất (dưới đây gọi là sửa chữa bảo hành) thông qua các Cửa hàng Bán xe hợp tác với MotorShop.\n
+                    \nCác chi tiết đã được thay thế bằng chi tiết mới theo điều kiện bảo hành này sẽ trở thành tài sản của công ty sản phẩm.\n
+                    \nVà đưa ra quyết định cuối cùng về sửa chữa hoặc thay thế.\n
+                    \n- Các chi tiết dưới đây không thuộc phạm vi bảo hành:\n
+                    \nCác chi tiết hao mòn tự nhiên, các loại dầu mỡ.\n
+                    \nNhững phụ tùng thuộc danh mục phụ tùng hao mòn theo thời gian sử dụng (bảng các chi tiết hao mòn tự nhiên) và Phụ phẩm, dầu mỡ\n
+                    \nNhững bộ phận được thay thế tại cửa hàng không phải Cửa hàng do công ty cung cấp sản phẩm ủy nhiệm.\n
+                    \nNgoài các nội dung tại đây, MotorShop sẽ thực hiện các trách nhiệm bảo hành khác theo quy định của pháp luật (nếu có). "
+            android:textSize="15dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".warranty.act.CreateAccountMiniActivity">
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/bg_main">
+        <TextView
+            android:text="Tạo tài khoản"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vui lòng nhập đầy đủ thông tin bên dưới để tạo tài khoản thành công:"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CMND: (*)"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/EditTextIdentityId"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:inputType="number"
+                android:background="@drawable/background_shape_edit"
+                android:textColor="#000"
+                android:hint="Input Identity"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Họ tên: (*)"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/EditTextName"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:inputType="text"
+                android:background="@drawable/background_shape_edit"
+                android:textColor="#000"
+                android:hint="Input Name"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Số điện thoại: (*)"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/EditTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:inputType="phone"
+                android:background="@drawable/background_shape_edit"
+                android:textColor="#000"
+                android:hint="Input Phone Numbers"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Địa chỉ: (*)"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/EditTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:inputType="text"
+                android:background="@drawable/background_shape_edit"
+                android:textColor="#000"
+                android:hint="Input Address"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mật khẩu(*)"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/EditTextPass"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:inputType="textPassword"
+                android:background="@drawable/background_shape_edit"
+                android:textColor="#000"
+                android:hint="Input Password"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nhập lại mật khẩu(*)"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/EditTextRePass"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:inputType="textPassword"
+                android:background="@drawable/background_shape_edit"
+                android:textColor="#000"
+                android:hint="Input RePassword"/>
+            <Button
+                android:id="@+id/btnCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_send"
+                android:text="Tạo tài khoản"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

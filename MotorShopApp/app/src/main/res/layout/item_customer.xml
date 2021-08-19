@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="175dp"
+        android:src="@drawable/imageface"></ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="Mã KH: "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvIdCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="CMND: "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvIdenIdCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Họ tên: "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvNameCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Địa chỉ: "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvAddCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="SĐT: "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvPhoneCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Mật khẩu:  "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvPassCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvDateCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày tạo: "
+            android:textColor="#f000"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".warranty.fragment.CaseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:text="@string/guarantees_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="410dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.Sử dụng xe không theo chỉ dẫn trong sách hướng dẫn sử dụng (tải trọng tối đa, số người được phép chở, tốc độ cầm chừng thấp…) dẫn đến hư hỏng do sử dụng vượt quá mức độ cho phép.
+    \n2.Bất kỳ việc sửa chữa nào như là kết quả của sự thay đổi trái phép, tu sửa hoặc thay đổi so với thiết kế ban đầu được thực hiện (thay đổi công suất hoặc cấu trúc, thay đổi chiều cao yên xe, hàn thêm chi tiết) là nguyên nhân gây ra các hỏng hóc.
+    \n3.Bất cứ hỏng hóc nào xảy ra do việc sử dụng xe làm xe đua, sử dụng trong các cuộc biểu tình hoặc sử dụng không đúng mục đích: sử dụng xe kinh doanh như phương tiện chuyển chở công cộng.
+    \n4.Bất cứ hỏng hóc nào liên quan do việc sử dụng phụ tùng hoặc nhiên liệu không chính hiệu như: nhiên liệu, dầu nhớt (dầu động cơ, dầu phanh, dung dịch làm mát…) với các thông số kỹ thuật khác bên ngoài so với sách hướng dẫn sử dụng.
+    \n5.Những phụ tùng hư hỏng xảy ra do bảo quản lâu ngày như cao su lão hóa, hay dầu mỡ bị biến chất.
+    \n6.Hư hỏng gây ra bởi các yếu tố bên ngoài như: đùa nghịch, đất, cát, sỏi, đá, vật cứng sắc nhọn.
+    \n7.Hư hỏng gây ra bởi các yếu tố bên ngoài như: tàn thuốc lá, hóa chất, phân động vật, muối, mưa axit, chuột cắn và các yếu tố tương đương.
+    \n8.Những hư hỏng gây ra do vi phạm mục 4 “Quyền lợi và nghĩa vụ của khách hàng” "
+                android:textSize="15dp"
+                android:textColor="#000"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

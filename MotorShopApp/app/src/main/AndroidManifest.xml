@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.motorshop.activity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MotorShop"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".brand.BrandActivity"
+            android:parentActivityName=".main.MainActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <activity android:name=".login.LoginActivity">
+             <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+
+
+             <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.VerifyActivity"
+            android:parentActivityName=".login.LoginActivity" />
+        <activity
+            android:name=".main.MainActivity"
+            android:parentActivityName=".login.LoginActivity" />
+        <activity
+            android:name=".brand.BrandDetailActivity"
+            android:parentActivityName=".brand.BrandActivity" />
+
+
+
+        <activity
+            android:name=".product.ChiTietXeActivity"
+            android:parentActivityName=".product.QuanLyXeActivity" />
+        <activity
+            android:name=".product.QuanLyPhuTungActivity"
+            android:parentActivityName=".main.MainActivity" />
+        <activity android:name=".product.SuaPhuTungActivity" />
+        <activity android:name=".product.ThemPhuTungActivity" />
+        <activity android:name=".product.SuaXeActivity" />
+        <activity android:name=".product.ThemXeActivity" />
+        <activity
+            android:name=".product.QuanLyXeActivity"
+            android:parentActivityName=".main.MainActivity" />
+
+
+
+        <activity android:name=".warranty.act.SignupNoticesWarrantyActivity" />
+        <activity
+            android:name=".warranty.act.WarrantyActivity"
+            android:parentActivityName=".main.MainActivity" />
+        <activity android:name=".warranty.act.WarrantyDetailActivity"
+            android:parentActivityName=".warranty.act.WarrantyActivity" />
+        <activity
+            android:name=".statistic.PieChartActivity"
+            android:parentActivityName=".main.MainActivity" />
+        <activity
+            android:name=".warranty.act.TabActivity"
+            android:parentActivityName=".main.MainActivity" />
+        <activity
+            android:name=".warranty.act.ChatWithBotActivity"
+            android:parentActivityName=".warranty.act.TabActivity" />
+        <activity
+            android:name=".warranty.act.ScheduleMaintenanceActivity"
+            android:parentActivityName=".warranty.act.TabActivity" />
+        <activity
+            android:name=".warranty.act.ChooseSPActivity"
+            android:parentActivityName=".warranty.act.ScheduleMaintenanceActivity" />
+        <activity
+            android:name=".warranty.act.VerifyRequestActivity"
+            android:parentActivityName=".warranty.act.ChooseSPActivity" />
+        <activity
+            android:name=".warranty.act.CreateAccountMiniActivity"
+            android:parentActivityName=".warranty.act.TabActivity" />
+
+
+
+        <activity
+            android:name=".staff.StaffActivity"
+            android:label="@string/title_activity_qlnvactivity"
+            android:theme="@style/Theme.MotorShop.NoActionBar" />
+        <activity android:name=".depart.DepartActivity" />
+        <activity android:name=".customer.CustomerActivity" />
+        <activity android:name=".staff.Add_StaffActivity" />
+        <activity android:name=".depart.Add_DepartActivity" />
+
+        <activity android:name=".bill.Menu_DonDat" />
+        <activity android:name=".bill.QuanLy_DonDat" />
+        <activity android:name=".bill.ChiTietDonDat" />
+        <activity android:name=".bill.DonDat" />
+
+
+
+    </application>
+
+</manifest>

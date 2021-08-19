@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:src="@drawable/imageface"></ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="Mã NV: "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvIdST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvNameST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ tên: "
+            android:textColor="#f000"
+            android:textSize="15sp" />
+        <TextView
+            android:text="SĐT: "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvPhoneST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Mật khẩu:  "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvPassST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Ngày tạo: "
+            android:textSize="15sp"
+            android:textColor="#f000"
+            android:id="@+id/tvDateST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvDepartST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bộ phận: "
+            android:textColor="#f000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

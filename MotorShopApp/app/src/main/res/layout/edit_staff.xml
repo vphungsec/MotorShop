@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSuaNV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="SỬA NHÂN VIÊN"
+        android:textColor="#101010"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvNhapTenNVCanSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSuaNV"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Nhập tên nhân viên cần sửa: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etTenNVSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNhapTenNVCanSua"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvNhapMaNVCanSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTenNVSua"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập mã nhân viên cần sửa: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etMaNVThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNhapMaNVCanSua"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/tvSDTNVCanSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMaNVSua"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập SDT nhân viên cần sửa: "
+        android:textColor="#101010">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etSDTCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSDTNVCanSua"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/tvPBNVCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSDTCS"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập Phòng Ban nhân viên cần sửa: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etPBNVCanSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPBNVCanThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        />
+
+    <Button
+
+        android:id="@+id/btnXacNhanSuaNV"
+        android:layout_width="119dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:gravity="center"
+        android:text="Xác Nhận"></Button>
+</LinearLayout>

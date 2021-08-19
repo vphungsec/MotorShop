@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAddST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="THÊM NHÂN VIÊN"
+        android:textColor="#101010"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvAddNameST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Nhập tên nhân viên cần thêm: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etAddNameST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddNameST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+   <!-- <TextView
+        android:id="@+id/tvNhapMaNVCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddNameST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập mã nhân viên cần thêm: "
+        android:textColor="#101010">
+    </TextView>
+
+    <EditText
+        android:id="@+id/etMaNVThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNhapMaNVCanThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />-->
+    <TextView
+        android:id="@+id/tvAddPhoneST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddNameST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập SDT nhân viên cần thêm: "
+        android:textColor="#101010">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etAddPhoneST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddPhoneST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/tvAddPassST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddPhoneST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập mật khẩu nhân viên cần thêm: "
+        android:textColor="#101010">
+    </TextView>
+
+    <EditText
+        android:id="@+id/etAddPassST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddPassST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/tvAddDeParIdST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddPhoneST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập Mã Phòng Ban nhân viên cần thêm: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etAddDeParIdST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddDeParIdST"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        />
+     
+
+    <Button
+
+        android:id="@+id/btnAddST"
+        android:layout_width="119dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:gravity="center"
+        android:text="Xác Nhận"></Button>
+</LinearLayout>

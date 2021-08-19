@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+<!--    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme">-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="windowActionBarOverlay">true</item>-->
+<!--        <item name="colorPrimary">@android:color/transparent</item>-->
+<!--    </style>-->
+
+    // chỉnh size của Search View
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ToolbarColoredBackHome" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+</resources>

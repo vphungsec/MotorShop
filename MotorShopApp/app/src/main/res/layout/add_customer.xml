@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvThemKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="THÊM KHÁCH HÀNG"
+        android:textColor="#101010"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvNhapTenKHCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvThemNV"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Nhập tên khách hàng cần thêm: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etTenKHThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNhapTenKHCanThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvNhapCMNDCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTenKHThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập CMND khách hàng cần thêm: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etCMNDThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNhapCMNDCanThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/tvSDTKHCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCMNDThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập SDT khách hàng cần thêm: "
+        android:textColor="#101010">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etSDTKHCT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSDTKHCanThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/tvPBNVCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSDTKHCT"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nhập địa chỉ khách hàng cần thêm: "
+        android:textColor="#101010">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etDCKHCanThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPBNVCanThem"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        />
+
+    <Button
+
+        android:id="@+id/btnXacNhanThemKH"
+        android:layout_width="119dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:gravity="center"
+        android:text="Xác Nhận"></Button>
+</LinearLayout>
